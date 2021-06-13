@@ -2,7 +2,7 @@
 font-family: 'Orbitron', sans-serif;*/
 :root {
     --primary-font-color: #bcbbbe;
-    --secondary-font-color: #74d025;
+    --secondary-font-color: #b9ea8e;
     --heading-font: 'Orbitron', sans-serif;
     --default-font: 'Open Sans', sans-serif;
 }
@@ -11,8 +11,9 @@ body {
     background: #282726;
     color: var(--primary-font-color);
     text-align: center;
-    margin: 20px;
+    margin: 30px auto;
     font-family: var(--default-font);
+    max-width: 1200px;
 }
 
 header h1, h2 {
@@ -27,7 +28,7 @@ h2 {
 }
 
 main {
-    margin: 100px;
+    margin: 100px 0 40px;
 }
 
 img {
@@ -45,11 +46,18 @@ img {
     display: block;
     clear: both;
     margin: 100px 0 50px;
+    font-style: italic;
 }
 
 .fa-quote-right {
     float: right;
     font-size: 50px;
+}
+
+.bio {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 a:link {
